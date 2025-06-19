@@ -1,6 +1,6 @@
 .env
 cookies.txt
 node_modules/
-upload/
+uploads/
 email-reminder.js
 tempo-server.js
