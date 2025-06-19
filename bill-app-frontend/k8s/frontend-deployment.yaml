@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bill-app-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bill-app-frontend
+  template:
+    metadata:
+      labels:
+        app: bill-app-frontend
+    spec:
+      containers:
+        - name: bill-app-frontend
+          image: bill-app-frontend
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80

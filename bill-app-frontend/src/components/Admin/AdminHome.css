@@ -1,0 +1,78 @@
+/* AdminHome.css */
+
+.admin-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.admin-title {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.admin-warning {
+  margin-bottom: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.admin-input {
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border 0.3s ease;
+}
+
+.admin-input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.admin-button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+  background-color: #45a049;
+}
+
+.admin-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.admin-error-message {
+  color: #d32f2f;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: rgba(211, 47, 47, 0.1);
+  border-radius: 5px;
+  text-align: center;
+}
